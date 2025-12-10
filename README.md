@@ -2,20 +2,20 @@
 
 This project presents a complete deep-learning pipeline for dementia classification using brain MRI scans, combined with synthetic data generation using GANs and VAEs to enhance dataset diversity and support privacy-preserving research. The system integrates multiple models (CNN, ResNet50, MobileNetV2) and deploys real-time prediction through a Streamlit interface.
 
-## 🚀 Project Highlights
+##  Project Highlights
 - MRI-based dementia classification across four classes  
   **(Non-Demented, Very Mild Demented, Mild Demented, Moderate Demented)**  
 - Multiple deep learning models:  
-  ✔ Custom CNN  
-  ✔ ResNet50 (Transfer Learning)  
-  ✔ MobileNetV2 (Transfer Learning)  
+  . Custom CNN  
+  . ResNet50 (Transfer Learning)  
+  . MobileNetV2 (Transfer Learning)  
 - Synthetic MRI generation using:  
-  ✔ GAN (Generative Adversarial Network)  
-  ✔ VAE (Variational Autoencoder)  
+  . GAN (Generative Adversarial Network)  
+  . VAE (Variational Autoencoder)  
 - Robust validation using:  
-  ✔ Train–Test Swap  
-  ✔ Synthetic–Real Mixing Ratio Analysis  
-  ✔ Real Hold-Out Calibration  
+  . Train–Test Swap  
+  . Synthetic–Real Mixing Ratio Analysis  
+  . Real Hold-Out Calibration  
 - End-to-end deployment using **Streamlit**  
 - Models trained using **Google Colab**, deployed via **VS Code**
 
@@ -25,7 +25,7 @@ Images were resized, normalized, and converted to grayscale (for CNN) and RGB (f
 
 Source: HuggingFace — https://huggingface.co/datasets/falah/Alzheimer_MRI
 
-## 🛠 Preprocessing Summary
+##  Preprocessing Summary
 - Convert raw pixel arrays to PIL images  
 - Resize all MRIs to 128×128  
 - Convert to grayscale for CNN and RGB for transfer-learning  
@@ -68,7 +68,7 @@ Input (128×128×3)
 ### 4️⃣ GAN & VAE  
 GAN generates realistic MRI images, while VAE learns latent representations and reconstructs MRIs.
 
-## 📊 Evaluation Metrics
+##  Evaluation Metrics
 Accuracy:
 TP + TN / (TP + TN + FP + FN)
 
@@ -86,7 +86,7 @@ Synthetic validation:
 - Mixing ratios (0–100% synthetic)  
 - Real hold-out testing  
 
-## 🏆 Results Summary
+##  Results Summary
 - Improved CNN ≈ 92% accuracy  
 - ResNet50 most stable & accurate  
 - MobileNetV2 high accuracy + lightweight  
@@ -123,4 +123,4 @@ Use Python 3.10 (TensorFlow does not support 3.12).
 
 ## 📞 Contact
 **Ravichandra D**  
-Email: ravichandradevarajappa18@gmail.com
+Email: ravichandra182001@gmail.com
