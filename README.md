@@ -118,7 +118,7 @@ pip install tensorflow streamlit pillow numpy matplotlib opencv-python
 ```
 Use Python 3.10 (TensorFlow does not support 3.12).
 
-##Dataset
+## Dataset
 Alzheimer MRI Classification Dataset — HuggingFace. https://huggingface.co/datasets/falah/Alzheimer_MRI
 
 
